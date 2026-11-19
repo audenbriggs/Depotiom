@@ -1,0 +1,253 @@
+---
+name: Tangerine Stream
+colors:
+  surface: '#131315'
+  surface-dim: '#131315'
+  surface-bright: '#39393b'
+  surface-container-lowest: '#0e0e10'
+  surface-container-low: '#1b1b1d'
+  surface-container: '#201f21'
+  surface-container-high: '#2a2a2c'
+  surface-container-highest: '#353437'
+  on-surface: '#e5e1e4'
+  on-surface-variant: '#ddc1b3'
+  inverse-surface: '#e5e1e4'
+  inverse-on-surface: '#313032'
+  outline: '#a58c7f'
+  outline-variant: '#564338'
+  surface-tint: '#ffb68d'
+  primary: '#ffb68d'
+  on-primary: '#532200'
+  primary-container: '#ff8a3d'
+  on-primary-container: '#682d00'
+  inverse-primary: '#9a4600'
+  secondary: '#e0c643'
+  on-secondary: '#393000'
+  secondary-container: '#a69001'
+  on-secondary-container: '#312900'
+  tertiary: '#c7c5cd'
+  on-tertiary: '#303036'
+  tertiary-container: '#aaa8af'
+  on-tertiary-container: '#3d3d43'
+  error: '#ffb4ab'
+  on-error: '#690005'
+  error-container: '#93000a'
+  on-error-container: '#ffdad6'
+  primary-fixed: '#ffdbc9'
+  primary-fixed-dim: '#ffb68d'
+  on-primary-fixed: '#321200'
+  on-primary-fixed-variant: '#763300'
+  secondary-fixed: '#fde25d'
+  secondary-fixed-dim: '#e0c643'
+  on-secondary-fixed: '#211b00'
+  on-secondary-fixed-variant: '#524600'
+  tertiary-fixed: '#e4e1e9'
+  tertiary-fixed-dim: '#c7c5cd'
+  on-tertiary-fixed: '#1b1b21'
+  on-tertiary-fixed-variant: '#46464c'
+  background: '#131315'
+  on-background: '#e5e1e4'
+  surface-variant: '#353437'
+typography:
+  display:
+    fontFamily: JetBrains Mono
+    fontSize: 3.5rem
+    fontWeight: '700'
+    lineHeight: 4rem
+    letterSpacing: -0.05em
+  display-mobile:
+    fontFamily: JetBrains Mono
+    fontSize: 2.25rem
+    fontWeight: '700'
+    lineHeight: 2.75rem
+    letterSpacing: -0.03em
+  headline-lg:
+    fontFamily: Space Grotesk
+    fontSize: 2.25rem
+    fontWeight: '600'
+    lineHeight: 2.75rem
+    letterSpacing: -0.02em
+  headline-lg-mobile:
+    fontFamily: Space Grotesk
+    fontSize: 1.75rem
+    fontWeight: '600'
+    lineHeight: 2.25rem
+    letterSpacing: -0.01em
+  headline-md:
+    fontFamily: Space Grotesk
+    fontSize: 1.5rem
+    fontWeight: '600'
+    lineHeight: 2rem
+    letterSpacing: -0.01em
+  headline-sm:
+    fontFamily: Space Grotesk
+    fontSize: 1.25rem
+    fontWeight: '500'
+    lineHeight: 1.75rem
+  body-lg:
+    fontFamily: Space Grotesk
+    fontSize: 1.125rem
+    fontWeight: '400'
+    lineHeight: 1.75rem
+  body-md:
+    fontFamily: Space Grotesk
+    fontSize: 1rem
+    fontWeight: '400'
+    lineHeight: 1.5rem
+  body-sm:
+    fontFamily: Space Grotesk
+    fontSize: 0.875rem
+    fontWeight: '400'
+    lineHeight: 1.25rem
+  metric-live:
+    fontFamily: JetBrains Mono
+    fontSize: 1.25rem
+    fontWeight: '600'
+    lineHeight: 1.5rem
+    letterSpacing: -0.02em
+  metric-sub:
+    fontFamily: JetBrains Mono
+    fontSize: 0.875rem
+    fontWeight: '500'
+    lineHeight: 1.25rem
+  label-md:
+    fontFamily: Space Grotesk
+    fontSize: 0.875rem
+    fontWeight: '500'
+    lineHeight: 1.25rem
+    letterSpacing: 0.02em
+  label-sm:
+    fontFamily: Space Grotesk
+    fontSize: 0.75rem
+    fontWeight: '500'
+    lineHeight: 1rem
+    letterSpacing: 0.04em
+  code-inline:
+    fontFamily: JetBrains Mono
+    fontSize: 0.75rem
+    fontWeight: '400'
+    lineHeight: 1rem
+rounded:
+  sm: 0.125rem
+  DEFAULT: 0.25rem
+  md: 0.375rem
+  lg: 0.5rem
+  xl: 0.75rem
+  full: 9999px
+spacing:
+  gutter: 1rem
+  gutter-md: 1.5rem
+  gutter-lg: 2rem
+  margin: 1rem
+  margin-md: 2rem
+  margin-lg: 3rem
+  space-2xs: 0.25rem
+  space-xs: 0.5rem
+  space-sm: 0.75rem
+  space-md: 1rem
+  space-lg: 1.5rem
+  space-xl: 2rem
+  space-2xl: 3rem
+---
+
+## Brand & Style
+
+This design system targets an ultra-modern, high-precision financial environment tailored for real-time asset and token streaming. The UI conveys continuous motion, technical rigor, and mathematical certainty. It bridges the gap between high-frequency institutional trading terminals and consumer-grade Web3 protocols.
+
+### Aesthetic Foundation
+- **Modern Technical Minimalism:** Dense information architecture without clutter. High-contrast elements against deep obsidian tones focus user attention entirely on stream velocity, outflow rates, and live accruals.
+- **Fluid Kinetic Realism:** Live metrics are not static snapshots; they are continuous currents. Micro-animations, linear vector gradients, and monospaced number tickers give visual permanence to the passage of capital per second.
+- **High-Contrast Dark Canvas:** A pitch-black baseline preserves optical energy while vibrant, warm accents direct attention to dynamic thresholds and actionable commands.
+
+## Colors
+
+The palette leverages a dark-first environment that emphasizes streaming liquidity and status visibility.
+
+- **Canvas & Background (`#0E0E10`):** Pure near-black canvas that maximizes screen contrast and reduces visual fatigue during sustained monitoring.
+- **Primary Accent (`#FF8A3D` - Tangerine):** Used exclusively for linear stream vectors, active flow pipes, progress indicators, primary CTA buttons, and interactive flow controls. When applied to primary buttons, paired with `#0E0E10` text for maximum legibility.
+- **Secondary Accent (`#FFE45E` - Lemon):** Reserved for live ticking balances, micro-decimal rate displays, streaming activity pills, and positive rate indicators.
+- **Structural Graphite (`#3A3A40`):** Defines card borders, linear track backgrounds, dividers, and structural surface boundaries.
+- **Text Primary (`#FFF9EE` - Warm White):** Replaces clinical cool whites with an organic warm tone, eliminating glare while sustaining high legibility.
+- **Text Secondary / Muted:** Derived by applying 60% opacity to `#FFF9EE` for field labels, timestamps, and secondary token metadata.
+
+## Typography
+
+The typographic system utilizes a dual-engine hierarchy designed for real-time asset flows:
+
+1. **Space Grotesk (Headings & UI Labels):** An extended, geometric sans-serif that provides structural balance and an architectural presence.
+2. **JetBrains Mono (Metrics & Streaming Data):** Tabular numeric figures are mandatory across all financial interfaces. This font guarantees zero layout jitter during microsecond ticker refreshes, preserving alignment across decimal tiers.
+
+### Layout & Sizing Rules
+- **Decimal Decoupling:** Large balances format integer units using `display` or `headline-lg`, while fractional decimals beyond 4 decimal places reduce in opacity (70%) and drop one step down in size to prioritize readability.
+- **All-Caps Technical Tracking:** Micro-labels and table headings use uppercase styling with explicit letter spacing (`0.04em`) to establish clear data compartmentalization.
+
+## Layout & Spacing
+
+The layout model emphasizes high information density while preserving structure through uniform horizontal alignment.
+
+### Grid Architecture
+- **Desktop (>= 1280px):** 12-column fluid grid, max-width 1440px centered, `margin-lg` (48px), `gutter-lg` (32px).
+- **Tablet (768px - 1279px):** 8-column fluid grid, `margin-md` (32px), `gutter-md` (24px).
+- **Mobile (< 768px):** 4-column fluid grid, `margin` (16px), `gutter` (16px).
+
+### Spacing Principles
+- Multiples of 4px govern all internal card paddings and layout tiers.
+- High-frequency data blocks (such as token pairs and streaming rate badges) rely on tight gaps (`space-xs` and `space-sm`) to lock relationships.
+- Sections and parent card containers employ `space-xl` and `space-2xl` to define clear operational boundaries on dark backgrounds.
+
+## Elevation & Depth
+
+This design system avoids blurred drop shadows and skeuomorphic gradients in favor of crisp technical layering, precise outlines, and localized glow.
+
+### Structural Layering
+- **Base Canvas:** Solid `#0E0E10`.
+- **Card Tier 1:** Solid `#141417` with a 1px solid border in `#3A3A40`.
+- **Card Tier 2 (Inner Nesting / Inspector Drawers):** Solid `#1B1B20` with a 1px solid border in `#3A3A40`.
+- **Active / Focused Containers:** Border dynamically transitions from `#3A3A40` to `#FF8A3D`.
+
+### Flow Kinetics & Glow
+- Static elements receive no box-shadows.
+- Active stream vectors and dynamic balances use a soft, directional glow: `box-shadow: 0 0 16px rgba(255, 138, 61, 0.15)`.
+- Live status indicators (pulsing stream dots) use a subtle radial burst: `box-shadow: 0 0 8px rgba(255, 228, 94, 0.40)`.
+
+## Shapes
+
+The geometric framework is unified around a precise, technical **10px corner radius** across all primary functional surfaces.
+
+- **Standard Cards & Modals:** Exactly `10px` (`0.625rem`) corner radius. Matches user specifications for technical precision without the aggressiveness of zero-radius brutalism.
+- **Buttons & Input Fields:** Standardized at `10px` to mirror container silhouettes.
+- **Pills & Status Indicators:** Retain full pill rounding (`9999px`) exclusively for small status tags, active stream chips, and protocol badges to separate them visually from interactive structural containers.
+- **Border Enforcements:** Single-pixel hairline boundaries (`1px solid #3A3A40`) are applied universally to all bounded elements.
+
+## Components
+
+### Buttons
+- **Primary:** Background `#FF8A3D`, text `#0E0E10` (weight 600), radius 10px. Hover: brightness(1.08). Active: brightness(0.95). Focus: 2px offset ring in `#FF8A3D`.
+- **Secondary:** Background transparent, border 1px solid `#3A3A40`, text `#FFF9EE`. Hover: background `#1B1B20`, border-color `#FFF9EE`.
+- **Ghost / Utility:** Transparent background, text `#FFF9EE` with 60% opacity. Hover: text opacity 100%, background `#141417`.
+
+### Live Balances & Stream Displays
+- **Stream Rate Block:** Compact card featuring a continuous micro-ticker. Digits set in `JetBrains Mono` rendered in `#FFE45E`.
+- **Stream Progress Bar:** 4px linear track with background `#3A3A40`. Active fill uses `#FF8A3D` with an animated pulse ring at the head of the flow.
+- **Velocity Indicator:** Micro-label showing real-time distribution (e.g., `+0.0004218 / sec`) formatted in monospace, uppercase, with a 60% opacity label and a 100% bright `#FFE45E` value.
+
+### Cards & Panels
+- **Standard Card:** Background `#141417`, border 1px solid `#3A3A40`, corner radius 10px, padding `space-lg`.
+- **Nested Metrics Container:** Background `#0E0E10`, border 1px solid `#3A3A40`, corner radius 8px, padding `space-md`.
+
+### Form Inputs
+- **Field Canvas:** Background `#0E0E10`, border 1px solid `#3A3A40`, text `#FFF9EE`, radius 10px, padding `0.75rem 1rem`.
+- **Focus State:** Border color shifts immediately to `#FF8A3D`, with no glow.
+- **Token Input Group:** Integrated token selector on the right with a vertical separator (`1px solid #3A3A40`).
+
+### Chips & Badges
+- **Active Stream Pill:** Fully rounded (`9999px`), background `rgba(255, 228, 94, 0.1)`, border 1px solid `#FFE45E`, text `#FFE45E`, font size `label-sm`. Includes a 6px pulsing green/lemon dot.
+- **Paused Stream Pill:** Background `rgba(58, 58, 64, 0.3)`, border 1px solid `#3A3A40`, text `#FFF9EE` at 60% opacity.
+
+### Selection Controls (Checkboxes & Radios)
+- **Checkbox:** Square with 4px border radius, 16px dimension, 1px border `#3A3A40`, background `#0E0E10`. Checked: background `#FF8A3D`, border `#FF8A3D`, check icon `#0E0E10`.
+- **Radio:** Circular, 16px dimension, 1px border `#3A3A40`, background `#0E0E10`. Selected: border `#FF8A3D`, filled with an inner 8px circle in `#FF8A3D`.
+
+### Stream Table / List Items
+- **Table Row:** Border-bottom 1px solid `#3A3A40`, background transparent. Hover state: background `#141417`.
+- **Data Columns:** Explicit right-alignment for all numeric columns utilizing tabular layout features of `JetBrains Mono`.
